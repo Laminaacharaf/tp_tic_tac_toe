@@ -12,7 +12,7 @@ pipeline{
         }
         stage('Test') {
             steps {
-                echo 'coverage Testing'
+                echo 'TEST DE COUVERTURE'
                 sh 'CI=true npm test -- --coverage'
             }
               post {
